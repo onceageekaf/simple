@@ -38,7 +38,7 @@ export function InventionWorkflowSection({ className }: { className?: string }) 
             title="Tech Transfer Office"
             icon={<span className="text-[11px] font-semibold text-white">01</span>}
             iconContainerClassName="bg-black text-white border border-black shadow-none before:shadow-none"
-            rows={[{ id: "r1", subtitleText: "where time compounds", muted: true }]}
+            rows={[{ id: "r1", subtitleText: "invention to license", muted: true }]}
           />
           <div className="mx-auto h-7 w-px border-l border-dashed border-neutral-200" aria-hidden />
           <FlowCard
@@ -54,7 +54,7 @@ export function InventionWorkflowSection({ className }: { className?: string }) 
             title="Venture Funding"
             icon={<span className="text-[11px] font-semibold text-white">03</span>}
             iconContainerClassName="bg-black text-white border border-black shadow-none before:shadow-none"
-            rows={[{ id: "r3", subtitleText: "where scale happens", muted: true }]}
+            rows={[{ id: "r3", subtitleText: "strong ecosystem replicated at scale", muted: true }]}
           />
         </div>
         <div className="mt-6 flex justify-center">
@@ -62,7 +62,7 @@ export function InventionWorkflowSection({ className }: { className?: string }) 
             href=""
             className="group inline-flex items-center gap-1 text-sm font-semibold text-[#B85042] transition-colors hover:text-[#a5473b]"
           >
-            <span>See the System -&gt;</span>
+            <span>See the ttOS System -&gt;</span>
           </a>
         </div>
       </div>
