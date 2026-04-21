@@ -1,0 +1,10 @@
+---
+description: Always follow project build instructions from rules.md
+alwaysApply: true
+---
+
+# Build Instruction Source of Truth
+
+- Treat `rules.md` at the project root as required instructions for this codebase.
+- Before making edits, check `rules.md` and follow it unless a higher-priority system or user instruction conflicts.
+- If `rules.md` is empty or unclear, ask the user for clarification before making major changes.
