@@ -83,17 +83,16 @@ export default function Home() {
         <PageShell width="full" className="pt-20 pb-20 md:pt-24 md:pb-24 lg:pt-32 lg:pb-32">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center text-center">
           <h2 className="text-balance text-3xl font-semibold leading-[1.05] tracking-[-0.06em] text-[#2f3137] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-            See how the system gets fixed.
+            
           </h2>
-          <p className="mt-10 max-w-3xl text-pretty text-base leading-relaxed text-neutral-600 sm:text-lg md:mt-12 md:text-xl lg:mt-16">
+          <p className="mt-8 max-w-3xl text-pretty text-sm font-medium leading-relaxed text-neutral-600 sm:text-base md:mt-10">
             Three subsystems. Three interventions. One architecture.
           </p>
           <a
             href="/system"
-            className="mt-10 inline-flex items-center gap-2 rounded-full bg-[#2f3137] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#24262c] sm:text-base md:mt-12 lg:mt-16"
+            className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#2f3137] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#24262c] sm:text-base"
           >
-            Explore the ttOS System
-            <span aria-hidden>&rarr;</span>
+            See the ttOS system -&gt;
           </a>
         </div>
         </PageShell>

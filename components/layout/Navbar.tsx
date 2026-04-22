@@ -11,7 +11,6 @@ import { Menu, X } from "lucide-react";
 const NAV_ITEMS = [
   { label: "System", href: "/system" },
   { label: "Atom Factory", href: "/atomfactory" },
-  { label: "Promethium Fund", href: "/promethium-fund" },
 ];
 
 export default function Navbar() {
